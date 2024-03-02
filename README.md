@@ -5,6 +5,7 @@ A python3 script that draws a box around a string of text using unicode box-draw
 ![Screenshot](example_ouput.png)
 
 ## Installation
+> Only tested on linux.
 
 Download the script.
 
