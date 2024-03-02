@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser(
 )
 
 # Define optional arguments
-#
+
 parser.add_argument(
     '-t', '--type', 
     default='r',
@@ -17,10 +17,13 @@ parser.add_argument(
     #metavar='',
     help='[Regular, Regular(Rounded), Bold, Double]'
 )
+
 # Parse the arguments
 args = parser.parse_args()
 
 # Accessing the parsed arguments
+
+    # Regular
 if args.type == 'r':
     TL='┌'
     TR='┐'
@@ -29,6 +32,7 @@ if args.type == 'r':
     HZ='─'
     VT='│'
 
+    # Regular (Rounded)
 elif args.type == 'rr':
     TL='╭'
     TR='╮'
@@ -37,6 +41,7 @@ elif args.type == 'rr':
     HZ='─'
     VT='│'
 
+    # Bold
 elif args.type == 'b':
     TL='┏'
     TR='┓'
@@ -45,6 +50,7 @@ elif args.type == 'b':
     HZ='━'
     VT='┃'
 
+    # Double
 else:
     STR=''
     TL='╔'
