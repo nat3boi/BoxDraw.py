@@ -74,9 +74,8 @@ cat file.txt
 │ your text here │
 ╰────────────────╯
 ```
-
-!!! Warning for noobs (like me)
-You make sure you use **2** angle brakets `>>`. If you acidentally just use 1, you will overwrite your file instead of appending the text to it.
+> [!WARNING]
+>In the above Command, make sure you use **2** angle brakets `>>`. If you acidentally just use 1, you will overwrite your file instead of appending the text to it.
 
 ## Why
 
