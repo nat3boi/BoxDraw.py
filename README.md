@@ -5,25 +5,28 @@ A python3 script that draws a box around a string of text using unicode box-draw
 ![Screenshot](example_ouput.png)
 
 ## Installation
-> Only tested on linux.
+>[!NOTE]
+>Only tested on Linux
 
-Download the script.
+#### Download the script.
 
 ```bash
 git clone https://github.com/nat3boi/BoxDraw.py.git
 ```
-Change directory into repository's folder and make the script executable.
+#### Change directory into repository's folder and make the script executable.
 
 ```bash
 cd BoxDraw.py && sudo chmod +x boxdraw.py
 ```
 
-> **Tip:** You can change the name and move it to a directory in you shell's path to use it as a regular program (without `./` and from any directory). 
+>[!TIP]
+>You can change the name and move it to a directory in you shell's path to use it as a regular program (without `./` and from any directory). 
 
 ## Usage
-> Note: Github will not render these correctly and they will not be connected. If you are using a proper fixed-width/monospace font in your terminal they should look correct, like the screenshot above.
+>[!NOTE]
+>Github will not render these correctly and they will not be connected. If you are using a proper fixed-width/monospace font in your terminal they should look correct, like the screenshot above.
 
-Execute the script and type a string of text into the command line.
+#### Execute the script and type a string of text into the command line.
 
 Without any option selected, you will get the default ouput (regular). 
 
